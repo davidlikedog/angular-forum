@@ -5,9 +5,9 @@ import {HomeComponent} from './component/home/home.component';
 import {CkeditorComponent} from './component/ckeditor/ckeditor.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/HomeComponent', pathMatch: 'full' },
-  { path: 'HomeComponent', component: HomeComponent },
-  { path: 'Ckeditor', component: CkeditorComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+  { path: 'cke', component: CkeditorComponent },
 ];
 
 @NgModule({

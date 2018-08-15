@@ -1,0 +1,28 @@
+<nav class="nav">
+  <div class="photo">
+    <img src="../../../assets/img/aa.jpg" alt="">
+  </div>
+  <a mat-button href="#">论坛首页</a>
+  <a mat-button href="#">我的发布</a>
+  <div class="grow"></div>
+  <a mat-button href="#">添加</a>
+  <a mat-button href="#">注销</a>
+  <!--<i mat-button (click)="showMenu($event)" class="material-icons white">view_headline</i>-->
+  <mat-icon (click)="showMenu($event)" class="material-icons white">view_headline</mat-icon>
+
+  <div class="slideBar" [class.showSliderBar]="isShow">
+    <div>
+      <a mat-button href="#">论坛首页</a>
+    </div>
+    <div>
+      <a mat-button href="#">我的发布</a>
+    </div>
+    <div>
+      <a mat-button href="#">添加</a>
+    </div>
+    <div>
+      <a mat-button href="#">注销</a>
+    </div>
+  </div>
+</nav>
+
