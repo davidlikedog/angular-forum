@@ -19,6 +19,7 @@ import { MaterialNavComponent } from './component/material-nav/material-nav.comp
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 import { HomeDetailComponent } from './component/home-detail/home-detail.component';
 import { PircureRotateComponent } from './component/pircure-rotate/pircure-rotate.component';
+import { HomeOneBlockComponent } from './component/home-one-block/home-one-block.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { PircureRotateComponent } from './component/pircure-rotate/pircure-rotat
     MaterialNavComponent,
     HomeDetailComponent,
     PircureRotateComponent,
+    HomeOneBlockComponent,
   ],
   imports: [
     BrowserModule,
