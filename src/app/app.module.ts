@@ -16,10 +16,12 @@ import {CkeditorModule} from 'ngx-ckeditor5/lib/src';
 import {CkeditorComponent} from './component/ckeditor/ckeditor.component';
 import {NavComponent} from './component/nav/nav.component';
 import { MaterialNavComponent } from './component/material-nav/material-nav.component';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
-import { HomeDetailComponent } from './component/home-detail/home-detail.component';
+// import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
+import { HomeDetailComponent } from './component/home/home-detail/home-detail.component';
 import { PircureRotateComponent } from './component/pircure-rotate/pircure-rotate.component';
-import { HomeOneBlockComponent } from './component/home-one-block/home-one-block.component';
+import { HomeOneBlockComponent } from './component/home/home-one-block/home-one-block.component';
+import { LoginComponent } from './component/login/login.component';
+
 
 @NgModule({
   declarations: [
@@ -31,6 +33,7 @@ import { HomeOneBlockComponent } from './component/home-one-block/home-one-block
     HomeDetailComponent,
     PircureRotateComponent,
     HomeOneBlockComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,11 +44,11 @@ import { HomeOneBlockComponent } from './component/home-one-block/home-one-block
     BrowserAnimationsModule,
     LayoutModule,
     CkeditorModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatListModule,
+    // MatToolbarModule,
+    // MatButtonModule,
+    // MatSidenavModule,
+    // MatIconModule,
+    // MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

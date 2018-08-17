@@ -1,0 +1,33 @@
+.backTop {
+  position: fixed;
+  bottom: 20px;
+  right: -32px;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid mediumpurple;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.backTop:hover {
+  transform: translateY(-6px);
+  -webkit-transform: translateY(-6px);
+  -moz-transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0, 36, 100, 0.3);
+}
+
+.hide {
+  opacity: 1;
+  right: 20px;
+}
